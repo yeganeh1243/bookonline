@@ -14,6 +14,7 @@
 		ED9692861F2DC0C400CD81CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9692841F2DC0C400CD81CF /* LaunchScreen.storyboard */; };
 		ED9692911F2DC0C400CD81CF /* bookonlineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9692901F2DC0C400CD81CF /* bookonlineTests.swift */; };
 		ED96929C1F2DC0C400CD81CF /* bookonlineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED96929B1F2DC0C400CD81CF /* bookonlineUITests.swift */; };
+		EDF80F0C1F2DCD59009C2B59 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = EDF80F0B1F2DCD59009C2B59 /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ED9692971F2DC0C400CD81CF /* bookonlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookonlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED96929B1F2DC0C400CD81CF /* bookonlineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookonlineUITests.swift; sourceTree = "<group>"; };
 		ED96929D1F2DC0C400CD81CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF80F0B1F2DCD59009C2B59 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				ED96927B1F2DC0C400CD81CF /* AppDelegate.swift */,
 				ED96927D1F2DC0C400CD81CF /* ViewController.swift */,
+				EDF80F0B1F2DCD59009C2B59 /* pokemon.csv */,
 				ED96927F1F2DC0C400CD81CF /* Main.storyboard */,
 				ED9692821F2DC0C400CD81CF /* Assets.xcassets */,
 				ED9692841F2DC0C400CD81CF /* LaunchScreen.storyboard */,
@@ -234,6 +237,7 @@
 			files = (
 				ED9692861F2DC0C400CD81CF /* LaunchScreen.storyboard in Resources */,
 				ED9692831F2DC0C400CD81CF /* Assets.xcassets in Resources */,
+				EDF80F0C1F2DCD59009C2B59 /* pokemon.csv in Resources */,
 				ED9692811F2DC0C400CD81CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +511,7 @@
 				ED9692A21F2DC0C400CD81CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED9692A31F2DC0C400CD81CF /* Build configuration list for PBXNativeTarget "bookonlineTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				ED9692A51F2DC0C400CD81CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED9692A61F2DC0C400CD81CF /* Build configuration list for PBXNativeTarget "bookonlineUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				ED9692A81F2DC0C400CD81CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
